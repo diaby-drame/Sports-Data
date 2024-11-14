@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sports-data"
+version = "0.1.0"
+description = ""
+authors = ["diaby <kissimadrame72@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+pydantic = "2.4.2"
+selenium = "4.14.0"
+supabase = "2.0.3"
+psycopg2-binary = "2.9.9"
+bs4 = "0.0.1"
+mplsoccer = "^1.4.0"
+webdriver-manager = "^4.0.2"
+scraperfc = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
